@@ -1,38 +1,11 @@
-# sv
+# TaskPureJS - Görev Listesi Uygulaması / Task List Application
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+TaskPureJS, görevlerinizi kolayca takip etmenizi sağlayan basit bir Görev Listesi (To-Do List) uygulamasıdır. Kullanıcıların görev ekleme, silme ve tamamlanan görevleri işaretleme gibi temel özellikleri sunar. Ek olarak, karanlık mod desteği de bulunmaktadır.
 
-## Creating a project
+TaskPureJS is a simple To-Do List application that allows you to easily track your tasks. It provides basic features such as adding, deleting, and marking tasks as completed. Additionally, it includes dark mode support.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Özellikler / Features
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Görev ekleme ve silme / Add and delete tasks
+- Görevleri tamamlandı olarak işaretleme / Mark tasks as completed
+- Karanlık mod desteği / Dark mode support
